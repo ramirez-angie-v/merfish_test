@@ -1,0 +1,158 @@
+
+/* Contents of jilab_merfish.css */
+/**/
+
+/* Navbar container styling for different size screens */
+.nav.navbar-nav.nav-underline {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+}
+
+/* Media query for screens wider than 1290px */
+@media (min-width: 560px) {
+    .nav.navbar-nav.nav-underline {
+        justify-content: flex-start;
+    }
+}
+
+/* Navbar container styling */
+.navbar > .container-fluid { 
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Navbar app title styling */
+.navbar-brand {
+  font-size: 27px;
+  margin-right: 10px;
+}
+
+/* Navbar links styling */
+.navbar-nav > li > a {
+  display: flex;
+  align-items: center;
+  height: 92px;
+  font-size: 18px;
+}
+
+/* Header right section styling */
+.header-right {
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+/* Styling for Ji Lab logo */
+.header-img-jilab {
+  width: auto;
+  height: 20px;
+  margin-bottom: 3px;
+  padding-right: 10px;
+}
+
+/* Styling for Bings logo */
+.header-img-bings {
+  width: auto;
+  height: 50px; /* Fixed from 0px to 50px */
+  padding-top: 10px;
+  padding-left: 10px;
+  border-left: 1px solid white;
+  margin-right: 20px;
+}
+
+/* Styling for SBDRC logo */
+.header-img-sbdrc {
+  width: auto;
+  height: 62px;
+  margin-right: 20px;
+}
+
+/* Controls row styling */
+.controls-row {
+  background-color: #f7f7f7;
+  color: #333;
+  border: 1px solid #ddd;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* Image styling in collection strategy figure */
+.collection-strategy-figure {
+  display: block;
+  max-width: 100%;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center and bold heading for spatial clustering and expression rows */
+.first_row_spatial_clustering_t1 h4, 
+.second_row_spatial_clustering_t1 h4, 
+.first_row_spatial_expression_t1 h4, 
+.second_row_spatial_expression_t1 h4 {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Hide specific navigation bar elements */
+body > nav > div > ul > li:nth-child(1) > a,
+body > nav > div > ul > li:nth-child(2) > a {
+  display: none;
+}
+
+/* Label and form controls styling */
+label, .control-label, .help-block, .checkbox, .radio {
+  font-size: 15px;
+}
+
+/* h3 styling */
+h3 {
+  padding-bottom: 15px;
+}
+
+/* Study summary styling */
+.study-summary {
+  font-size: 16px;
+  border-bottom: 1px solid gray;
+  display: block;
+  width: 100%;
+  padding-bottom: 35px;
+}
+
+/* Spatial plots header styling */
+.spatial-plots-header {
+  border-bottom: 1px solid gray;
+}
+
+/* Footer styling */
+.footer {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 70px;
+  color: grey;
+}
+
+/* "Compare" Tab text styling */
+.tab2-text {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+
+
